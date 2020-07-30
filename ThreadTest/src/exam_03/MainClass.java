@@ -19,9 +19,5 @@ public class MainClass {
 				e.printStackTrace();
 			}
 		}
-		
-
-
 	}
-
 }

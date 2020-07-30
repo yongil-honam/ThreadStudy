@@ -8,7 +8,7 @@ public class ThreadB extends Thread{
 	@Override
 	public void run() {
 		String name = getName();
-		for(int i=100;i<105;i++) {
+		for(int i=1;i<5;i++) {
 			System.out.println("["+name+"] : " +i);
 			try {
 				Thread.sleep(500);
